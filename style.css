@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: neu;
+    color: yellow; /* Adding yellow color to all text */
+}
+
+
+
+
+
 @font-face {
     font-family: neu;
     src: url(./NeueHaasDisplayMediu.ttf);
@@ -36,7 +48,7 @@ html, body {
 #page1 {
     min-height: 100vh;
     width: 100%;
-    background-color: #EFEAE3;
+    background-color: darkslategray;
     position: relative;
     padding: 0 2vw;
 }
@@ -63,7 +75,7 @@ nav {
     border: 1px solid #0000003c;
     border-radius: 50px;
     font-weight: 500;
-    color: #000000bb;
+    color: #FFFF00;
     transition: all ease 0.4s;
     position: relative;
     font-size: 18px;
@@ -75,7 +87,7 @@ nav {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: #FFFF00;
     left: 0;
     bottom: -100%;
     border-radius: 50%;
@@ -88,14 +100,14 @@ nav {
 }
 
 #nav-part2 h4 a {
-    color: #000000bb;
+    color: #FFFF00;
     text-decoration: none;
     position: relative;
     z-index: 9;
 }
 
 #nav-part2 h4:hover a {
-    color: #fff;
+    color: #000000;
 }
 
 nav h3 {
@@ -129,7 +141,7 @@ nav h3 {
     position: relative;
     border-radius: 30px;
     margin-top: 4vw;
-    width: 100%;
+    width: 53%;
 }
 
 #hero-shape {
@@ -202,7 +214,7 @@ nav h3 {
 #page2 {
     min-height: 100vh;
     width: 100%;
-    background-color: #EFEAE3;
+    background-color: black;
     padding: 8vw 0;
     position: relative;
 }
@@ -322,7 +334,7 @@ nav h3 {
 #page3 {
     min-height: 100vh;
     width: 100%;
-    background-color: #EFEAE3;
+    background-color: #000000;
     padding: 4vw 0;
 }
 
@@ -361,13 +373,13 @@ nav h3 {
 
 
 #fixed-image {
-    height: 30vw;
-    width: 24vw;
+    height: 22vw;
+    width: 22vw;
     /* background-color: red; */
     border-radius: 15px;
     position: fixed;
     z-index: 99;
-    left: 50%;
+    left: 60%;
     top: 25%;
     display: none;
     background-size: cover;
@@ -377,7 +389,7 @@ nav h3 {
 #page4 {
     height: 70vh;
     width: 100%;
-    background-color: #EFEAE3;
+    background-color: #000000;
     padding: 10vw 2vw;
 }
 
@@ -664,6 +676,7 @@ nav h3 {
         opacity: 0;
     }
 }
+
 
 @media (max-width:600px) {
     #loader h1{
